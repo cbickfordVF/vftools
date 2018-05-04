@@ -1,3 +1,4 @@
+<cfinclude template="../includes/inc_header.cfm">
 
 <script src="../assets/js/jquery-1.12.4.js"></script>
 <script src="../assets/js/jquery-ui.js"></script>
@@ -32,9 +33,15 @@
 <form action="" method="post">
   <table>
     <tr>
-      <td class="titleField">Date:</td>
+      <td class="titleField">Date:1</td>
       <cfoutput>
-        <td><input type="text" id="datepicker" size="10" value="#dateformat(now()-1, "mmmm d, yyyy")#" name="date"></td>
+        <td>
+        <cfif timeformat(now(), 'H') gte 12>
+          <input type="text" id="datepicker" size="10" value="#dateformat(now(), "mmmm d, yyyy")#" name="date">
+        <cfelse>
+          <input type="text" id="datepicker" size="10" value="#dateformat(now()-1, "mmmm d, yyyy")#" name="date">
+        </cfif>
+        </td>
       </cfoutput>
     </tr>
     <tr>

@@ -1,7 +1,8 @@
-<h2>Projects v1</h2>
+
+<h1>Utility Projects</h1>
 <hr>
 
 <ul>
-  <li><a href="dailyclips/" target="_blank">Daily Clips</a></li>
-  <li><a href="mchelpers/" target="_blank">News to Use Marketing Cloud Helper</a></li>
+  <li><a href="dailyclips/"><h2>Daily Clips</h2></a></li>
+  <li><a href="mchelpers/"><h2>Marketing Cloud News to Use</h2></a></li>
 </ul>
