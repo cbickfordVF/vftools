@@ -1,0 +1,2 @@
+Header info, breadcrumbs
+<hr>
