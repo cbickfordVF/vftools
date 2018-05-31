@@ -74,13 +74,12 @@
       &lt;/div&gt;
   </div>
   <hr>
-  
+
 <div class="right" id="foo">
-<br />
 <div style="font-family: Arial;color:##5f5f5f;"><br />
-<a href="#form.link#" title="#form.title#" alias="#form.title#" conversion="false"><b><font color="##0193CF">#form.title#</font></b></a><br /><br />
-<cfif len(form.SubtitleA)><b>#form.SubtitleA#</b><br /><br /></cfif>
-<cfif len(form.SubtitleB)><b>#form.SubtitleB#</b><br /><br /></cfif>
+<a href="#form.link#" title="#form.title#" alias="#form.title#" conversion="false"><b><font color="##0193CF">#form.title#</font></b></a><br />
+<cfif len(form.SubtitleA)><b>#form.SubtitleA#</b><br /></cfif>
+<cfif len(form.SubtitleB)><b>#form.SubtitleB#</b><br /></cfif>
 <cfif len(form.copy)>#form.copy#<br /></cfif>
 </div>
 </div>
