@@ -54,6 +54,7 @@
           <td></td>
           <td>
               <input type="submit" name="submit" value="Submit">
+              <cfif len(form.submit)>
                 <button onclick="copyToClip(document.getElementById('foo').innerHTML)">
                   Copy the stuff
                 </button>
